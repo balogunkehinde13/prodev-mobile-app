@@ -11,10 +11,10 @@ export default function Index() {
           <Ionicons name="arrow-back" size={25} />
           <Image source={require('@/assets/images/logo.png')} />
         </View>
-        <Text style={styles.largeText}>Sign in to your</Text>
+        <Text style={styles.largeText}>Sign up your new</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>
-          Enter your email and password to sign in.
+          Enter your email and password to sign up.
         </Text>
 
         <View style={styles.formGroup}>
@@ -29,11 +29,10 @@ export default function Index() {
               <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
             </View>
           </View>
-          <Text style={styles.forgotPasswordText}>Forgot password?</Text>
         </View>
 
         <TouchableOpacity style={styles.button}>
-          <Text style={styles.buttonText}>Sign in</Text>
+          <Text style={styles.buttonText}>Sign up</Text>
         </TouchableOpacity>
 
         <View style={styles.dividerGroup}>
@@ -82,10 +81,6 @@ export default function Index() {
           </TouchableOpacity>
         </View>
 
-        <View style={styles.subTextGroup}>
-          <Text style={styles.subText}>Don&apos;t have an account?</Text>
-          <Text style={styles.subTextJoin}>Join now</Text>
-        </View>
       </SafeAreaView>
     </SafeAreaProvider>
   );
